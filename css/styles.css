@@ -19,6 +19,12 @@ body {
 }
 
 /*barra navegacion */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    width: 100%; 
+}
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 1rem;
@@ -27,9 +33,6 @@ body {
 }
 .navbar-dark .navbar-brand {
     color: white;
-}
-.navbar-dark {
-    background-color: #333333;
 }
 .logo {
     margin-left: 2rem;
@@ -86,6 +89,15 @@ body {
 /*media queries*/
 @media (max-width: 768px) {
 
+    h2 {
+        font-size: 2rem; 
+    }
+    p {
+        font-size: 1.25rem; 
+    }
+    .seccion-soluciones{
+        padding: 5% 5%;
+    }
     .texto-h1-pagina1 h1 {
         font-size: 6vw; 
     }
