@@ -32,6 +32,12 @@ body {
     margin-right: 2rem;
     font-weight: 500;
 }
+.nav-link:hover {
+    color: #C41517;
+}
+.navbar-toggler {
+    color: white !important; 
+}
 .btn {
     background-color: #C41517; 
     color: #fff;
@@ -76,7 +82,7 @@ body {
     align-self: flex-end; 
 }
 .seccion-soluciones .img-fluid {
-    max-width: 55%;
+    max-width: 70%;
     max-height: auto;
     margin: 0 auto;
     display: block;
@@ -112,11 +118,33 @@ body {
     width: 70%;
     margin-top: -15%; 
     border-radius: 10px;
-    z-index: 10; 
 }
 .imagen-seccion3mobil {
     display: none;
 }
+
+/*Seccion Pagos */
+.seccion-pagos {
+    margin-top: 25%;
+    position: relative;
+}
+.texto-seccion4 {
+    display: block;
+    position: absolute;
+    margin-left: 8%;
+    width: 40%;
+    margin-top: -15%; 
+    transform: translateY(5%)
+}
+.imagen-seccion4 {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    transform: translateY(-95%);
+    width: 37%;
+    border-radius: 10px;
+}
+
 
 /*media queries*/
 @media (max-width: 768px) {
@@ -142,6 +170,9 @@ body {
         border: 0;
         width: 100%;
         display: block;
+    }
+    .nav-link {
+
     }
     
     /*Soluciones*/
@@ -169,13 +200,38 @@ body {
     }
     .imagen-seccion3mobil {
         display: flex;
-        padding-top: 5%;
+        padding-top: 2%;
     }
     .imagen-seccion3 {
         display: none;
     }
     .seccion-consigue {
         margin-top: 0;
-        background-color: white;
+        background-color: #ddd;
+    }
+
+    /*Pagos*/
+    .seccion-pagos {
+        margin-top: 0;
+        background-color: #ddd;       
+    }
+    .texto-seccion4 {
+        position: relative;
+        margin-left: auto;
+        position: none;
+        margin-left: none;
+        width: auto;
+        margin-top: auto; 
+        transform: none
+    }
+    .imagen-seccion4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: auto;
+        display: flex;
+        padding-top: 2%;
+        border-radius: 0;
     }
 }
