@@ -6,6 +6,11 @@
     margin-bottom: 20px;
   }
 
+  .tarjeta-servicios:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+  }
+
   .tarjeta-servicios h5 {
     margin-top: 20px;
     font-size: 1.5rem;
@@ -13,6 +18,12 @@
 
   .imagen-tarjeta-servicios {
     height: 40vh;
+    width: auto;
+    align: center;
+  }
+
+  .imagen-tarjeta-soluciones {
+    height: 30vh;
     width: auto;
     align: center;
   }

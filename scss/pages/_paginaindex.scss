@@ -1,10 +1,10 @@
 @import "../base/variables";
-@import "../components/navbar";
 @import "../components/boton";
 @import "../components/boton2";
-@import "../components/tarjetaservicios";
 @import "../components/footer";
-
+@import "../components/navbar";
+@import "../components/seccionmain";
+@import "../components/tarjetaservicios";
 
 /*Seccion Hero */
 .hero-section {
@@ -29,14 +29,14 @@
 }
 
 /*Seccion Soluciones */
-.seccion-soluciones {
+.seccion-soluciones-index {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.seccion-soluciones .col-md-6 {
+.seccion-soluciones-index .col-md-6 {
     align-self: flex-end; 
 }
-.seccion-soluciones .img-fluid {
+.seccion-soluciones-index .img-fluid {
     max-width: 70%;
     max-height: auto;
     margin: 0 auto;
@@ -172,13 +172,13 @@
 
 .section-profesionales {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
   }
 
 .agente-seccion {
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
 

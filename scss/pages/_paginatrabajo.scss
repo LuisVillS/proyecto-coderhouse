@@ -1,40 +1,3 @@
-@import "../base/variables";
-@import "../components/navbar";
-@import "../components/boton";
-@import "../components/boton2";
-@import "../components/tarjetaservicios";
-@import "../components/footer";
-
-/*Seccion Main*/
-
-.nuestro-trabajo-main .h1 {
-    color: $azul-obscuro;
-} 
-
-.botones-trabajo-main {
-    display: flex; 
-    justify-content: flex-start; 
-    gap: 1%;
-    align-items: center;
-}
-
-.nuestro-trabajo-main {
-    margin: 15% 0% 5% 5%;
-}
-
-.nuestro-trabajo-main .img-fluid{
-    margin-top: -15%;
-}
-
-.nuestro-trabajo-main hr{
-    margin: auto;
-    width: 90%;
-    margin-top: 10%;
-    border-bottom: 3px solid;
-}
-
-/*Seccion Herramientas*/
-
 .mejores-herramientas {
     text-align: center;
     margin-bottom: 8%;
@@ -66,11 +29,11 @@
 
 .casos {
     border-bottom: 1px solid #ddd; 
-    padding-bottom: 16px; 
+    padding-bottom: 10%; 
   }
 
 .casos-estudio img {
-    display: none;
+    height: 25vh;
 }
 
 .casos-estudio h2{
@@ -79,5 +42,18 @@
     padding-bottom: 16px; 
     padding-top: 5%;
     font-weight: 600;
+}
+
+.casos-estudio p {
+    padding-right: 10%;
+}
+
+.casos-estudio .col-9 {
+    padding-bottom: 5%;
+}
+
+.casos-estudio a {
+    text-decoration: none;
+    color: $text-color;
 }
  

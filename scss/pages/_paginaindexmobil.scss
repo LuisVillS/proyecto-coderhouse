@@ -12,11 +12,11 @@
     }
     
     /*Soluciones*/
-    .seccion-soluciones .img-fluid {
+    .seccion-soluciones-index .img-fluid {
         max-width: 100%;
         margin-top: 5%;
     }
-    .seccion-soluciones .col-md-6 {
+    .seccion-soluciones-index .col-md-6 {
         width: 100%; 
         padding: 0;
         margin: 0;
@@ -78,5 +78,10 @@
     .seccion-vectores {
         margin-top: -15%;
         height: 80vh;
+    } 
+
+    .agente-seccion {
+        margin-right: 3%;
+        margin-left: 3%;
     }
 }

@@ -1,28 +1,7 @@
 @media (max-width: 768px) {
-    .nuestro-trabajo-main .img-fluid{
-        display: none;
-    }
-
-    .botones-trabajo-main {
-        width: 100%;
-        display: block;
-        text-align: center;
-        margin: 10% 0% 15% 0%;
-    }
-
-    .botones-trabajo-main .btn {
-        margin-top: 3%;
-    }
-
-    .nuestro-trabajo-main hr {
-        display: none;
-    }
-
-
-
+    
     .mejores-herramientas {
         text-align: left;
-        background-color: white;
     }
     
     .mejores-herramientas h2 {
@@ -46,13 +25,17 @@
         width: 30%;
         height: auto;
     }
-    
+
     .mejores-herramientas .row {
         padding-left: 5%; 
     }
 
     .casos-estudio img {
-        display: unset;
         height: 12vh;
     }
+
+    .casos-estudio p {
+        display: none;
+    }
+
 }

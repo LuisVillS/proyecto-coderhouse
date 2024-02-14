@@ -9,9 +9,11 @@
     text-decoration: none;
 }
 .btn2:hover {
+    transition: 0.5s;
     background-color: $text-color; 
     color: #fff;
     font-weight: 600;
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

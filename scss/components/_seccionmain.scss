@@ -1,0 +1,57 @@
+@import "../base/variables";
+
+.seccion-main h1 {
+    color: $azul-obscuro;
+} 
+
+.botones-main {
+    display: flex; 
+    justify-content: flex-start; 
+    gap: 1%;
+    align-items: center;
+}
+
+.seccion-main {
+    margin: 15% 0% 5% 5%;
+}
+
+.seccion-main .img-fluid{
+    margin-top: -15%;
+}
+
+.seccion-main hr{
+    margin: auto;
+    width: 90%;
+    margin-top: 10%;
+    border-bottom: 3px solid;
+}
+
+.seccion-main .separador-herramientas {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .seccion-main .img-fluid{
+        display: none;
+    }
+
+    .botones-main {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 10% 0% 15% 0%;
+    }
+
+    .botones-main .btn {
+        margin-top: 3%;
+    }
+
+    .nuestro-trabajo-main hr {
+        display: none;
+    }
+
+    .seccion-main .separador-herramientas {
+        display: unset;
+        border-bottom: 1px solid;
+    }
+}
