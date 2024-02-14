@@ -1,0 +1,83 @@
+@import "../base/variables";
+@import "../components/navbar";
+@import "../components/boton";
+@import "../components/boton2";
+@import "../components/tarjetaservicios";
+@import "../components/footer";
+
+/*Seccion Main*/
+
+.nuestro-trabajo-main .h1 {
+    color: $azul-obscuro;
+} 
+
+.botones-trabajo-main {
+    display: flex; 
+    justify-content: flex-start; 
+    gap: 1%;
+    align-items: center;
+}
+
+.nuestro-trabajo-main {
+    margin: 15% 0% 5% 5%;
+}
+
+.nuestro-trabajo-main .img-fluid{
+    margin-top: -15%;
+}
+
+.nuestro-trabajo-main hr{
+    margin: auto;
+    width: 90%;
+    margin-top: 10%;
+    border-bottom: 3px solid;
+}
+
+/*Seccion Herramientas*/
+
+.mejores-herramientas {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.mejores-herramientas h2 {
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.mejores-herramientas h4 {
+    font-size: 1.5rem; 
+    color: $text-color; 
+    font-weight: 600; 
+
+}
+
+.mejores-herramientas img {
+    width: 20%;
+    height: auto;
+}
+
+.separador-herramientas {
+    color: $text-color;
+}
+
+/*Seccion Casos*/
+
+.casos {
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 16px; 
+  }
+
+.casos-estudio img {
+    display: none;
+}
+
+.casos-estudio h2{
+    padding-left: 8%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 16px; 
+    padding-top: 5%;
+    font-weight: 600;
+}
+ 

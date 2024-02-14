@@ -1,0 +1,184 @@
+@import "../base/variables";
+@import "../components/navbar";
+@import "../components/boton";
+@import "../components/boton2";
+@import "../components/tarjetaservicios";
+@import "../components/footer";
+
+
+/*Seccion Hero */
+.hero-section {
+    position: relative;
+    width: 100%; 
+}
+.imagen-principal img {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+.texto-h1-pagina1 {
+    position: absolute;
+    bottom: 5%; 
+    left: 5%; 
+    width: 80%; 
+    max-width: 100%;
+}
+
+.h1-index {
+    color: white;
+}
+
+/*Seccion Soluciones */
+.seccion-soluciones {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.seccion-soluciones .col-md-6 {
+    align-self: flex-end; 
+}
+.seccion-soluciones .img-fluid {
+    max-width: 70%;
+    max-height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/*Seccion Consigue */
+.seccion-consigue {
+    margin-top: 15%;
+    position: relative;
+}
+.recuadro-debajo {
+    background-color: white; 
+    margin-top: -18%;
+    height: 45vh;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    z-index: -1;
+}
+.texto-seccion3 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+}
+.imagen-seccion3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: -15%; 
+    border-radius: 10px;
+}
+.imagen-seccion3mobil {
+    display: none;
+}
+
+/*Seccion Pagos */
+.seccion-pagos {
+    margin-top: 25%;
+    position: relative;
+    margin-bottom: 5%;
+}
+.texto-seccion4 {
+    display: block;
+    position: absolute;
+    margin-left: 8%;
+    width: 40%;
+    margin-top: -15%; 
+    transform: translateY(-1%)
+}
+.imagen-seccion4 {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    transform: translateY(-95%);
+    width: 37%;
+    border-radius: 10px;
+}
+
+
+/*Seccion Vectores*/
+
+.seccion-vectores {
+    background-color: $azul-claro;
+}
+
+.vectores-texto-padre {
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    height: 90vh;
+}
+
+.seccion-vectores-texto{
+    align-items: center center;
+}
+
+.seccion-vectores-texto h2{ 
+    color: white;
+}
+
+.seccion-vectores-texto p {
+    color: white;
+}
+
+.vectores-texto-padre hr{ 
+    border: none;
+    border-left: 5px solid $rojo-principal;
+    height: 40%;
+    padding-right: 2%;
+}
+
+.lista-elementos {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(59, 63, 79, 0.7)), url(https://as1.ftcdn.net/v2/jpg/00/49/62/76/1000_F_49627634_gzFaGxYJwns4PFbZe05A4cKnLA3MnSAJ.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vector p{
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.iconos {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: #3B3F4F;
+    border-radius: 100%;
+}
+  
+.iconos img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+/*Seccion Vectores*/
+
+.section-profesionales {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+.agente-seccion {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+

@@ -1,0 +1,26 @@
+@import "../base/variables";
+
+.btn2 {
+    background-color: $azul-obscuro; 
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 1% 5% 1% 5%;
+    text-decoration: none;
+}
+.btn2:hover {
+    background-color: $text-color; 
+    color: #fff;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+    .btn2 {
+        background-color: $azul-obscuro; 
+        border: 0;
+        width: 100%;
+        display: block;
+    }
+
+}

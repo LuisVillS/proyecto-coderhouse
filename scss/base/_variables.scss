@@ -1,0 +1,54 @@
+$background-color: rgb(236,236,236);
+$rojo-principal: rgb(196,21,23);
+$azul-obscuro: rgb(12,17,37);
+$text-color: rgb(51, 51, 51);
+$azul-claro: rgb(59,63,79);
+
+
+h1 {
+    font-size: 3rem; 
+    color: $azul-obscuro; 
+    font-weight: bold; 
+}
+h2 {
+    font-size: 2.5rem; 
+    color: $azul-obscuro; 
+    font-weight: bold; 
+}
+
+h3 {
+    font-size: 2rem;
+    color: $text-color;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.35rem;
+    color: $text-color;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.35rem; 
+    color: $text-color; 
+    line-height: 1.6; 
+}
+body {
+    background-color: $background-color;
+}
+
+hr {
+    opacity: 1;
+    color: $rojo-principal;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 2rem; 
+    }
+    p {
+        font-size: 1.25rem; 
+    }
+}

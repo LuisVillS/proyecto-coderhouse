@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+
+    .seccion-soluciones{
+        padding: 5% 5%;
+    }
+    .imagen-principal img{
+        width: auto;
+        height: 70vh;
+    }
+    .texto-h1-pagina1 {
+        display: none;
+    }
+    
+    /*Soluciones*/
+    .seccion-soluciones .img-fluid {
+        max-width: 100%;
+        margin-top: 5%;
+    }
+    .seccion-soluciones .col-md-6 {
+        width: 100%; 
+        padding: 0;
+        margin: 0;
+    }
+    
+    /*Consigue*/
+    .texto-seccion3 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: auto;
+        margin: auto;
+    }
+    .recuadro-debajo {
+        display: none;
+    }
+    .imagen-seccion3mobil {
+        display: flex;
+        padding-top: 2%;
+    }
+    .imagen-seccion3 {
+        display: none;
+    }
+    .seccion-consigue {
+        margin-top: 0;
+        background-color: #ddd;
+    }
+
+    /*Pagos*/
+    .seccion-pagos {
+        margin-top: 0;
+        background-color: #ddd;       
+    }
+    .texto-seccion4 {
+        position: relative;
+        margin-left: auto;
+        position: none;
+        margin-left: none;
+        width: auto;
+        margin-top: auto; 
+        transform: none
+    }
+    .imagen-seccion4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: auto;
+        display: flex;
+        padding-top: 2%;
+        border-radius: 0;
+    }
+
+    .lista-elementos {
+        display: none;
+    }
+
+    .seccion-vectores {
+        margin-top: -15%;
+        height: 80vh;
+    }
+}

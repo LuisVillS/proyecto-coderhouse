@@ -1,0 +1,46 @@
+@import "../base/variables";
+
+.footer {
+    background-color: $azul-claro;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer h5 {
+    color: white;
+    margin-bottom: 5%;
+  }
+  
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  .footer a:hover {
+    color: $rojo-principal;
+  }
+  
+  .lista-footer {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-logo {
+    width: 60%;
+    height: auto;
+  }
+ 
+  @media (max-width: 767px) {
+
+  .footer .col-md-2, 
+  .footer .col-md-4 {
+    padding-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    
+  }
